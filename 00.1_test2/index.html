@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Vue Events</h1>
+    </header>
+    <div class="blue-block"></div>
+    <section id="events">
+        <button v-on:click="add(1)">Add</button>
+        <button v-on:click="reduce(1)">Reduce</button>
+        <p id="result">Result: {{ counter }}</p>
+    </section>
+
+    <script src="https://unpkg.com/vue@next" defer></script>
+    <script src="app.js" defer></script>
+</body>
+</html>
