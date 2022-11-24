@@ -7,7 +7,8 @@ const app = Vue.createApp({
             courseGoalA: 'understand vue',
             courseGoalB: 'master vue',
             googleLink: 'https://www.google.com/',
-            htmltag: '<h1>this is a H1</h1>'
+            htmltag: '<h3>this is an H3</h3>',
+            imglink: 'https://www.datocms-assets.com/205/1525708256-vue.svg?auto=format&fit=max&w=1200',
         };
     },
 

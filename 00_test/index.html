@@ -6,18 +6,21 @@
     <title>Vue Basics</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="https://unpkg.com/vue@next" defer></script>
-    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <header>
       <h1>Vue Course Goals</h1>
     </header>
+    <div class="blue-block"></div>
     <section id="user-goal">
       <h2>My Course Goal</h2>
       <p>{{ courseGoal }}</p>
       <p> <a v-bind:href="googleLink">Google</a></p>
       <p>{{ outputGoal() }}</p>
       <p v-html="htmltag"></p>
+      <img v-bind:src="imglink" alt="">
     </section>
+    <script src="app.js" defer></script>
   </body>
 </html>
